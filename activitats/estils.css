@@ -1,6 +1,14 @@
-li {  color: red;
-    background-color: aqua;}
-
+.all{
+  background-color:  rgb(43, 40, 40);
+}
+li{
+  background-color: #333;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: #ddd;
+}
 span {
          color:blue;
 }
