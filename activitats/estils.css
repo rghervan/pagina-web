@@ -27,8 +27,38 @@ h2{
 background-color: #333;
 text-decoration-color: #ddd;
 }
-.format{text-align: center; background-color: #333;}
-.hiperlink{text-align: center; background-color: #333;}
+.format
+{
+  text-align: center; background-color: #333;
+}
+.hiperlink
+{
+  text-align: center; background-color: #333;
+}
+.lista
+{
+  text-align: center; background-color: #333;
+}
+.img
+{
+  text-align: center; background-color: #333;
+}
+.tablas
+{
+  text-align: center; background-color: #333;
+}
+.formularios
+{
+  text-align: center; background-color: #333;
+}
+.multimedia
+{
+  text-align: center; background-color: #333;
+}
+.contingut
+{
+  text-align: center; background-color: #333;
+}
 
 span {
          color:blue;
