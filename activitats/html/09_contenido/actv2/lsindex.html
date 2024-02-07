@@ -6,28 +6,41 @@
     <title>Listado de discos Jazz</title>
 </head>
 <body>
+    <style>
+        .barra{float: right;
+        width: 48px;}
+    </style>
     <header>
         <nav>
                 <a href="../../../../index.html">Portafoli</a>
                 <a href="../../../actv.html">Resum Activitats</a>
-                <a href="">Fitxa del disc</a>
+                <a href="fitxad.html">Fitxa del disc</a>
         </nav>
         <h1>Listado Jazz</h1>
     </header>
     <main>
+        <div class="barra">
+        <aside>
+            <form action="fitxad.html" method="get">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="q" placeholder="Search...">
+            <button type="submit">Submit</button>
+          </form>
+        </aside>
+        </div>
 <table>
     <thead>
             <tr>
-                <th scope="row">Autor</th>
+                <th scope="row">Imagen Disco</th>
                 <th scope="row">Nombre del disco</th>
-                <th scope="row">Discografia</th>
+                <th scope="row">Enlace Inofrmacion detallada</th>
             </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img src="" alt=""></td>
+            <td>Kind of Blue</td>
+            <td><a href=""></a></td>
         </tr>
     </tbody>
 
