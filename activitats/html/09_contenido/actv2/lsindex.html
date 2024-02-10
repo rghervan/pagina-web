@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado de discos Jazz</title>
+   <style>
+    body
+    {
+        height: 300vh;
+        background-color: rgb(85, 78, 78);
+        
+    }
+    nav{
+        list-style: none;
+    }
+   li{
+    list-style: none;
+    display: inline;
+    background-color: bisque;
+   }
+    aside
+    {
+        position: fixed;
+        right: 50%  ;
+    }
+   </style>
 </head>
 <body>
-    <style>
-        .barra{float: right;
-        width: 48px;}
-    </style>
+  
     <header>
+        <h1>Lista de disquets Jazz</h1>
         <nav>
-                <a href="../../../../index.html">Portafoli</a>
-                <a href="../../../actv.html">Resum Activitats</a>
-                <a href="fitxad.html">Fitxa del disc</a>
+        <ul>
+            <li><a href="../../../../index.html">Portafoli</a></li>
+            <li><a href="../../../actv.html">Resum Activitats</a></li>
+            <li><a href="fitxad.html">Fitxa del disc</a></li>
+        </ul>
         </nav>
-        <h1>Listado Jazz</h1>
+    
+        
+     
     </header>
     <main>
-        <div class="barra">
+        <div>
         <aside>
             <form action="fitxad.html" method="get">
             <label for="search">Search:</label>
@@ -28,31 +51,26 @@
           </form>
         </aside>
         </div>
-<table>
-    <thead>
-            <tr>
-                <th scope="row">Imagen Disco</th>
-                <th scope="row">Nombre del disco</th>
-                <th scope="row">Enlace Inofrmacion detallada</th>
-            </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><img src="" alt=""></td>
-            <td>Kind of Blue</td>
-            <td><a href=""></a></td>
-        </tr>
-    </tbody>
+   
 
-</table>
-
-
+<section>
+    <dl>
+        <dt>Nevermind</dt>
+        Este es un disco de <strong>Nirvana</strong></dl>
+        <br>
+        <dt>Metalica</dt>
+        <dl>Este es un disco de <strong>Metalica</strong></dl>
+        <br>
+        <dt>Blood Sugar Sex Magik</dt>
+        <dl>Este es un disco de <strong>Red Hot Chili Peppers</strong></dl>
+<br>
+        <dt>Ten</dt>
+        <dl>Este es un disco de <strong>Pearl Jam</strong></dl>
+        <br>
+        
+    </dl>
+</section>
     </main>
 
-    <footer>
-
-
-        
-    </footer>
 </body>
 </html>
