@@ -19,14 +19,13 @@ h1{
     position: relative;
 }
 .contenedor{
-position: relative;
-top: 0;
+position: absolute;
+top: 108%;
 bottom: 0;
 left: 25%;
 right: 0;
-background-color: white;
+color: white;
 }
-
     </style>
 </head>
 <body>
@@ -62,21 +61,19 @@ background-color: white;
 </details>
 
 </div>
+
 <div class="contenedor">
-<label>¿Cual es tu personaje favorito de Harry Potter?:
-    <input list="personajes-harry-potter" type="text" name="personaje-favorito">
+<label>¿Si te dijera que este cuadro cuenta la historia de la  <strong>hu-man</strong>idad?:
+    <input list="real-o-falso" type="text" name="real-o-falso">
 </label>
 
-<datalist id="personajes-harry-potter">
+<datalist id="real-o-falso">
     <option value="Harry Potter"></option>
     <option value="Ron Weasley"></option>
     <option value="Hermione Granger"></option>
     <option value="Lord Voldemort"></option>
     <option value="Albus Dumbledore"></option>
 </datalist>
-
-
-
 </div>
 
 
