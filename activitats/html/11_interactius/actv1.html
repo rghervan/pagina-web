@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Detalles</title>
+    <style>
+body{
+    background-color: black;
+    min-width: 1530px;
+    height: 500vh;
+}
+h1{
+    background-color: beige;
+    text-align: center;
+}
+.cdeple{
+    color: white;
+    position: relative;
+}
+.contenedor{
+position: relative;
+top: 0;
+bottom: 0;
+left: 25%;
+right: 0;
+background-color: white;
+}
+
+    </style>
 </head>
 <body>
+    <h1>El Jardin de las delicias <u>Jheronimus Bosch</u></h1>
+<img src="../../../fotos/10_elbosco_1_parte.png" alt="">
+<img src="../../../fotos/10_elbosco_parte2.png" alt="">
+<div class="cdeple">
+<details>
     
+	<summary>Detalles cronologicos</summary>
+	<ul>
+		<li>Precio:</li>
+        <ul>
+            <li>Incalculable</li>
+        </ul>
+		<li>Adquissidor:</li>
+        <ul>
+            <li>Rey Felipe II</li>
+        </ul>
+        <li>Fecha adquisicio:</li>
+        <ul>
+            <li>1591</li>
+        </ul>
+	</ul>
+    <ul>
+    <li><p>Posterior exposicion,hasta la actualidad.</p></li>
+    <ul>
+        <li>El Prado</li>
+    </ul>
+    </ul>
+	<p>Conclusion</p>
+    <p>En la actualidad el cuadro, no se puede comprar,"esta declarado monumento del estado español" y "es" de los españoles.</p>
+</details>
+
+</div>
+<div class="contenedor">
+<label>¿Cual es tu personaje favorito de Harry Potter?:
+    <input list="personajes-harry-potter" type="text" name="personaje-favorito">
+</label>
+
+<datalist id="personajes-harry-potter">
+    <option value="Harry Potter"></option>
+    <option value="Ron Weasley"></option>
+    <option value="Hermione Granger"></option>
+    <option value="Lord Voldemort"></option>
+    <option value="Albus Dumbledore"></option>
+</datalist>
+
+
+
+</div>
+
+
+
+
+
+
 </body>
 </html>
