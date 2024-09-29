@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(43, 40, 40);
+  background-color:grey;
   padding: 0%;
   margin: 0%;
 }
@@ -13,7 +13,7 @@ body {
 
   nav {
     display: flex;
-    flex-direction: rowback;
+    flex-direction: row;
     background-color: black;
 
   }
@@ -22,8 +22,30 @@ body {
     padding: 14px 20px;
     text-decoration: none;
    }
-    
+   .container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:  auto 1fr auto ;
+   }
+   .row{
+    display: flex;
+    flex-wrap: wrap;
+   } 
    aside {
     flex:30px;
     background-color: black;
+    padding: 20px;
+    color: white;
+   }
+   section{
+    flex: 70px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+   }
+   footer{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
    }
