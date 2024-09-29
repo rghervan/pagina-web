@@ -22,6 +22,11 @@ body {
     padding: 14px 20px;
     text-decoration: none;
    }
+   .container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:  auto 1fr auto ;
+   }
    .row{
     display: flex;
     flex-wrap: wrap;
